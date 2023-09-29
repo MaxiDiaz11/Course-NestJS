@@ -28,6 +28,23 @@
 $ yarn install
 ```
 
+## Running the data base
+
+```
+docker-compose up -d
+```
+
+## Seed data base
+
+```
+http://localhost:3000/api/v1/seed
+```
+
+## .env configuration
+```
+Clone file **.env.template** and rename to **.env**
+```
+
 ## Running the app
 
 ```bash
@@ -39,12 +56,6 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
-```
-
-## Running the data base
-
-```
-docker-compose up -d
 ```
 
 ## Test
