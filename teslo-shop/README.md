@@ -9,16 +9,18 @@
     <p align="center">
 </p>
 
-## Teslo API DB
-
-```
-docker-compose up -d
-```
-
 ## Installation
 
 ```bash
 $ yarn install
+$ replace .env.template with .env and his environments
+
+```
+
+## Running DB
+
+```
+docker-compose up -d
 ```
 
 ## Running the app
